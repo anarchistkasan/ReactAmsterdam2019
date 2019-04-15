@@ -1,17 +1,18 @@
-Talks - general thread available here (per talks videos are about to be published)
+Talks - general thread available here- https://www.youtube.com/watch?v=smBND2pwdUE (per talks videos are about to be published)
 
-
+----------------
 Kent C. Dodds (Trainer, USA) Requisite React
+----------------
 
 The talk was generally more a motivational one to inspire people learning the fundamentals
 
 General notes:
 
-    the better u understand abstraction - the better u use it
+    - the better u understand abstraction - the better u use it
 
-    custom components are just references to variables
+    - custom components are just references to variables
 
-    use composite components (compound components - React.cloneElement) only when needed
+    - use composite components (compound components - React.cloneElement) only when needed
 
 
 Key take-aways:
@@ -22,26 +23,27 @@ Key take-aways:
 
 In general, I would not recommend this talk
 
--------------
+----------------
 Siddharth Kshetrapal (Independent Developer, India) Refactoring React
+----------------
 
 this talk was more useful with typical examples you should pay attention to detect the code smell
 
 Things to pay attention to:
 
-    props inside state — code smell
+    - props inside state — code smell
 
-    interaction event handling - onClick - code smell (no accessibility support) - should be onChange
+    -interaction event handling - onClick - code smell (no accessibility support) - should be onChange
 
-        not interaction but behavior - onToggle
+        - not interaction but behavior - onToggle
 
-        name behavior not interaction
+        - name behavior not interaction
 
-        onChange vs onToggle to minimize number of strings to learn (onChange is more common)
+       - onChange vs onToggle to minimize number of strings to learn (onChange is more common)
 
-    one component too interested in child components - further reading - Optimized for change (Dan Abramov)
+    - one component too interested in child components - further reading - Optimized for change (Dan Abramov)
 
-        when surroundings change - component should  not change (unit test should not fail)
+        - when surroundings change - component should  not change (unit test should not fail)
 
     {…props} - code smell
 
@@ -77,11 +79,15 @@ Things to pay attention to:
 
         if private - use Context
 
--------
 
 
 https://sid.studio/refactoring/
+
+
+----------------
 Andrey Okonetchnikov (Freelance, Austria) A Common Design Language. Let Designers and Developers talk to each other
+----------------
+
 
 The talk was more about argumentations on why you need design system and what benefits it gives you.
 
@@ -92,8 +98,9 @@ Notes:
     User Interface = language
     UI Promitives in between UX and dev
 
--------------
+----------------
 Mark Dalgleish (Seek, Australia) Designing with React
+----------------
 
 The talk introduced a pretty cool tool - https://github.com/seek-oss/playroom
 
@@ -110,18 +117,22 @@ Playroom
 npm install playroom
 https://github.com/seek-oss/playroom
 
-------------
+----------------
 Lightening talks:
+----------------
+
+----
 next.js
+----
 
 high load on production
 > 15000 apps are using next.js
 
 https://mdxjs.com/
 
---
-
+----
 fast ssr react
+----
 
 Crystallize.com
 
@@ -131,9 +142,9 @@ Looks interactive, eh = LIE (loaders)
 
 netflix - react only on server
 
---
-
+----
 speeding up ssr with ESX
+----
 
 
 https://github.com/esxjs/esx
@@ -146,8 +157,9 @@ ssr - good seo
 
 TTFB - time to first byte is slower with ssr
 
----------------
+----------------
 Max Stoiber (GitHub, Austria) Tech Regrets at Spectrum
+----------------
 
 Practical advice on what exactly did went wrong and what theyt learned at Spectrum
 
@@ -182,9 +194,9 @@ Practical advice on what exactly did went wrong and what theyt learned at Spectr
 
     be open with roadmap (listen to user feedback)
 
-------------
-
+----------------
 Max Gallo (DAZN, UK) Scaling Applications with Microfrontends
+----------------
 
 Nice well structured talk - recommended
 
@@ -270,8 +282,9 @@ Challenges of scaling
 
     innovate
 
--------------
+----------------
 Elizabet Oliveira (Optum, Ireland) An SVG’s Tale
+----------------
 
 the talks was nicely presented, with the story on how to use svg with react
 
@@ -286,8 +299,9 @@ React kawaii project
 Interesting was the moment when the speaker started to play hip-hop on the stage
 
 
---------------
+----------------
 Peggy Rayzis (Apollo, USA) The GraphQL developer experience
+----------------
 
 The talk about the basics of GraphQl and motivation behind it.
 
@@ -314,6 +328,7 @@ Before - trying to make event emitter to behave like a cache
 
 ----------------
 Ashi Krishnan (GitHub, UK) Painting Pixels with WebGL with React Hooks
+----------------
 
 The talks was about presenting the way to work with WebGl in web, with some React smell
 
